@@ -11,6 +11,11 @@
       "link": "https://reactjs.org/"
     },
     {
+      "name": "JSX",
+      "image": "images/techs/jsx.png",
+      "link": "https://reactjs.org/docs/introducing-jsx.html"
+    },
+    {
       "name": "Git",
       "image": "images/techs/git.png",
       "link": "https://git-scm.com"
@@ -124,6 +129,11 @@
       "name": "Postman",
       "image": "images/techs/Postman.png",
       "link": "https://www.getpostman.com/"
+    },
+    {
+      "name": "DbDiagram",
+      "image": "images/techs/db-diagram.png",
+      "link": "https://dbdiagram.io/home"
     }
   ]
 }
