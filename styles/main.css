@@ -115,6 +115,18 @@ main {
     margin: 20px 0px;
   }
 
+#ADONET {
+    width: 175px;
+}
+
+#SQL {
+    width: 100px;
+}
+
+#VisualStudio {
+    width: 120px;
+}
+
 .words{
     padding:50px;
 }
