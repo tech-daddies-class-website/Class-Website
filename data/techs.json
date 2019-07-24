@@ -6,14 +6,14 @@
       "link": "https://www.javascript.com/"
     },
     {
-      "name": "AngularJS",
-      "image": "images/techs/angularjs.png",
-      "link": "https://angularjs.org/"
+      "name": "ReactJS",
+      "image": "images/techs/react.svg",
+      "link": "https://reactjs.org/"
     },
     {
-      "name": "jQuery",
-      "image": "images/techs/jquery.png",
-      "link": "https://jquery.com/"
+      "name": "JSX",
+      "image": "images/techs/jsx.png",
+      "link": "https://reactjs.org/docs/introducing-jsx.html"
     },
     {
       "name": "Git",
@@ -41,14 +41,14 @@
       "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
     },
     {
-      "name": "Sass",
-      "image": "images/techs/sass.png",
-      "link": "https://sass-lang.com/"
-    },
-    {
       "name": "Bootstrap",
       "image": "images/techs/bootstrap.png",
       "link": "https://getbootstrap.com/"
+    },
+    {
+      "name": "Reactstrap",
+      "image": "images/techs/Reactstrap-Alt.png",
+      "link": "https://reactstrap.github.io/"
     },
     {
       "name": "Browserify",
@@ -56,24 +56,9 @@
       "link": "http://browserify.org/"
     },
     {
-      "name": "Firebase",
-      "image": "images/techs/firebase.png",
-      "link": "https://firebase.google.com"
-    },
-    {
-      "name": "Materialize",
-      "image": "images/techs/materialize.png",
-      "link": "http://materializecss.com/"
-    },
-    {
       "name": "NPM",
       "image": "images/techs/npm.png",
       "link": "https://www.npmjs.com/"
-    },
-    {
-      "name": "SQLite3",
-      "image": "images/techs/sqlite.png",
-      "link": "https://www.sqlite.org/"
     },
     {
       "name": "SQL Server",
@@ -96,24 +81,59 @@
       "link": "https://www.microsoft.com/net/"
     },
     {
-      "name": "Visual Studio",
+      "name": "VisualStudio",
       "image": "images/techs/VisualStudio.png",
       "link": "https://www.visualstudio.com/vs/"
     },
     {
-      "name": ".Net MVC",
+      "name": "ASP.NET MVC",
       "image": "images/techs/aspnetMVC.png",
       "link": "https://www.asp.net/mvc"
     },
     {
-      "name": "ES lint",
+      "name": "ADONET",
+      "image": "images/techs/adonet-res.png",
+      "link": "https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/"
+    },
+    {
+      "name": "Entity Framework",
+      "image": "images/techs/EntityFramework.png",
+      "link": "https://docs.microsoft.com/en-us/aspnet/entity-framework"
+    },
+    {
+      "name": "Identity Framework",
+      "image": "images/techs/ASP.NET-Identity.jpg",
+      "link": "https://docs.microsoft.com/en-us/aspnet/identity/"
+    },
+    {
+      "name": "ESlint",
       "image": "images/techs/eslint.png",
       "link": "https://eslint.org/"
     },
     {
-      "name": "UglifyJs",
-      "image": "images/techs/uglify.png",
-      "link": "https://www.npmjs.com/package/uglifyjs"
+      "name": "SQL",
+      "image": "images/techs/sql.png",
+      "link": "https://docs.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-2017"
+    },
+    {
+      "name": "Azure Data Studio",
+      "image": "images/techs/AzureDataStudio.jpg",
+      "link": "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-2017"
+    },
+    {
+      "name": "JSON",
+      "image": "images/techs/JSONalt.png",
+      "link": "https://json.org/"
+    },
+    {
+      "name": "Postman",
+      "image": "images/techs/Postman.png",
+      "link": "https://www.getpostman.com/"
+    },
+    {
+      "name": "DbDiagram",
+      "image": "images/techs/db-diagram.png",
+      "link": "https://dbdiagram.io/home"
     }
   ]
 }
