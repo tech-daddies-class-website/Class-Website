@@ -183,14 +183,14 @@
         },
         {
             "id": 15,
-            "firstName": "Rose",
+            "firstName": "Rose Ku'uleialoha",
             "lastName": "Wisotzky",
-            "reelThemIn": "<p></p>",
-            "bio": "<p></p>",
+            "reelThemIn": "<p>Spice is the spice of life - Rose Ku'uleialoha Wisotzky</p>",
+            "bio": "<p>After high school, I dove into the world of letterpress printing and loved it! I worked on a number of projects and learned a lot about the type of environment I would thrive in and my desire to constantly learn and solve problems. In 2015, I moved to North Carolina with hopes of continuing to develop my skills in letterpress printing but found that with this niche-skill set, opportunities were less available. I moved to Nashville to pursue letter press printing, but despite loving the labor itself, working on a commission based schedule wasn't as consistent as I had hoped. I knew it was time for a change and I am continuing to grow with each day learning new languages and concepts and am excited about this new career in software development. </p>",
             "github": "https://github.com/rosewisotzky",
             "linkedIn": "https://www.linkedin.com/in/rosewisotzky/",
             "portfolio": "",
-            "email": "",
+            "email": "rose@rosewisotzky.com",
             "proImg": "images/classmates/RosePro.jpg",
             "funImg": "images/classmates/RoseFun.jpg"
         },

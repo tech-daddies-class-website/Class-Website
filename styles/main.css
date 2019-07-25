@@ -124,6 +124,7 @@ main {
 
 .technos, .words{    
     margin-top: -55px;
+    margin-bottom: 55px;
     background: white;
     padding:20px;
     border-radius: 20px;    
@@ -163,6 +164,14 @@ main {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+  
+  .image_off, #home:hover .image_on{
+    display:none
+ }
+ .image_on, #home:hover .image_off{
+    display:block
+ }
+ 
 
 .col,
 [class*="col-"] {
@@ -191,7 +200,7 @@ main {
 
   .modal-header{
     background-color: lightgray!important;
-    color: #238193;
+    color: #000000;
   }
 
   .modal-body img{
