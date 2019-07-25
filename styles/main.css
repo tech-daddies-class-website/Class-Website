@@ -17,13 +17,17 @@ blockquote{
     padding: 2em;
 }
 
+h1{
+    color: #ed4b00;
+}
+
 .navbar{
-    background-color: rgb(55, 55, 56);
-    padding: 20px;
+    /* background-color: rgb(55, 55, 56); */
+    /* padding: 20px; */
 }
-.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
-    background: white !important;
-}
+/* .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background: #ff9100 !important;
+} */
 .navbar-brand{
     display: flex;
 }
@@ -31,14 +35,18 @@ blockquote{
   margin-right: 2em;
 }
 
+.navbar-light {
+    /* color: #b55b00 */
+}
+
 #cohort22{
     display: inline-block;
-    color: #238193;
+    color: #000000;
 }
 
 #jumbheader{
-    box-shadow: 2px 2px 2px rgb(167, 166, 166);
-    background-color: #238193!important;
+    /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
+    background-color: #000000!important;
     color: lightgray;
 
 }
@@ -48,7 +56,6 @@ blockquote{
     font-weight: bold;
     height: 50px;
     color: white;
-
 }
 
 .title-font {
@@ -89,12 +96,13 @@ main {
 }
 
 .col-md-3.cohortMems{
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-radius:10px;
-    box-shadow: 2px 2px 2px lightgray;
-    margin: 10px;
+    box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
+    margin: 40px;
     margin-bottom: 25px;
     background: white;
+    transition: 0.3s;
 }
 
 .col-sm-2.technologies{
@@ -160,7 +168,7 @@ main {
   }
 
   .contactIcons{
-      color: #238193;
+      color: #000000;
   }
   .contactIcons:hover{
       transform: scale(1.2);
@@ -182,32 +190,32 @@ main {
       margin-bottom: 1.5rem;
   }
 
-.navbar.navbar-light.bg-light.footer{
+/* .navbar.navbar-light.bg-light.footer{
     margin-top:10px;
     font-size: 1em;
     background-color: #238193!important;
     color: white;
-}
+} */
 
 #demo-date {
     text-align: center;
 }
 
 #demo-date a {
-    color: #238193!important;
+    color: #c5c1bb!important;
 }
 
 button{
     cursor: pointer;
 }
 .btn-outline-primary{
-    color: #238193!important;
-    border-color: #238193!important;
+    color: #000000!important;
+    border-color: #000000!important;
 }
 
 .btn-outline-primary:hover{
     color: white!important;
-    background-color: #238193!important;
+    background-color: #000000!important;
 }
 
 /* adjusts size of contact icons depending on size of card */
