@@ -25,8 +25,8 @@ h1{
 }
 
 .navbar{
-    background-image: linear-gradient(90deg,#f56a44,#f59e3b);
-    /* background-color: rgb(55, 55, 56); */
+    /* background-image: linear-gradient(90deg,#f56a44,#f59e3b); */
+    background-color: rgb(0, 0, 0);
     /* padding: 20px; */
 }
 /* .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
@@ -47,7 +47,11 @@ h1{
 
 #cohort22{
     display: inline-block;
-    color: #000000;
+    color: #ffffff;
+}
+
+.nav-link{
+    color: #ffffff;
 }
 
 #jumbheader{
