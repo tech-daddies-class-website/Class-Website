@@ -14,7 +14,7 @@ $.ajax({
 function cohortMembers(list) {
   let data = list.cohort;
   data.forEach(function (item) {
-    let studentContact = `<div class="studentContact">`
+    let studentContact = `<div class="contactContainer"><div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
     if (item.portfolio != null && item.portfolio != "") {
 
@@ -63,6 +63,7 @@ function cohortMembers(list) {
            Learn More!
           </button></center>
           </div>
+          </div>
         </div>`
     //modal info
     studentInfo +=`
@@ -84,8 +85,9 @@ function cohortMembers(list) {
 
 
     studentInfo += `
-      
+    <p class = 'card-text'>
     ${item.bio}
+    </p>
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
