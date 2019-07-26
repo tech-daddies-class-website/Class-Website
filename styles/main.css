@@ -45,9 +45,10 @@ h1{
     color: #b55b00
 } */
 
-#cohort22{
+#cohort31{
     display: inline-block;
     color: #ffffff;
+    font-size: 20px;
 }
 
 .nav-link{
@@ -81,15 +82,16 @@ h1{
 .jumbotron.jumbotron-fluid{
     background: none;
    }
-.jumbotron.jumbotron-fluid img{
+
+/* .jumbotron.jumbotron-fluid img{
     background: none;
     width:100%;
     margin-top: -80px;
-   }
+   } */
 
 main {
-    margin-bottom: 20px;
-    margin-top: -30px;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -128,14 +130,22 @@ main {
     transform: scale(1.2);
 }
 
+.navbar {
+    margin-bottom: 1px;
+}
+
+.anchor{
+    margin-top: 95px;
+    display: block;
+}
+
 .technos, .words{    
-    margin-top: -55px;
-    margin-bottom: 55px;
+    margin: 30px 100px 30px 100px;
     background: white;
     padding:20px;
     border-radius: 20px;    
     box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     /* max-width: 500px;     */
 }
 
@@ -143,6 +153,14 @@ main {
     width: 70px;
     margin: 20px 0px;
   }
+
+  .thankYou{    
+    margin: 30px 100px 30px 100px;
+    background: white;
+    padding:20px;
+    border-radius: 20px;    
+    box-shadow: 0px 0px 5px 8px  rgb(255, 255, 255);
+}
 
 
 #ADONET {
@@ -263,6 +281,7 @@ button{
     justify-content: flex-end;
 }
 
+
 /* adjusts size of contact icons depending on size of card */
 @media (min-width: 992px) and (max-width: 1200px){
     .fa-3x{
@@ -270,10 +289,18 @@ button{
       }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 530px) and (max-width: 991px){
+    .fa-3x{
+        font-size: 2em!important;
+      }
+}
+@media (min-width: 0px) and (max-width: 530px){
     .fa-3x{
         font-size: 2em!important;
       }    
+    #cohort31SubTitle{
+        display: none;
+    }
 }
 
 
@@ -282,10 +309,10 @@ button{
     /* body {
         background: url("../assets/images/bg.jpg") repeat;
     } */
-    .jumbotron.jumbotron-fluid img{
+    /* .jumbotron.jumbotron-fluid img{
         background: white;
         margin-top:30px;
-       }
+       } */
        .jumbotron.jumbotron-fluid.sm-width{
         width: 100%;
     }
