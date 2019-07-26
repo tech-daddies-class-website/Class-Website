@@ -116,10 +116,12 @@ main {
     border-radius: none;
     box-shadow: none;
     transition: transform .2s;
+    min-width: 118px;
+    max-width: 118px;
 }
 
 .col-sm-2.technologies:hover {
-    transform: scale(3);
+    transform: scale(1.2);
 }
 
 .technos, .words{    
@@ -141,6 +143,7 @@ main {
 
 #ADONET {
     width: 175px;
+    margin: 20px -20px;
 }
 
 #SQL {
