@@ -167,7 +167,7 @@ main {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  
+
   .image_off, #home:hover .image_on{
     display:none
  }
@@ -197,6 +197,7 @@ main {
   .contactIcons{
       color: #000000;
   }
+
   .contactIcons:hover{
       transform: scale(1.2);
   }
@@ -238,6 +239,14 @@ button{
 .btn-outline-primary{
     color: #000000!important;
     border-color: #000000!important;
+}
+
+.btn-outline-primary:not([disabled]):not(.disabled).active, .btn-outline-primary:not([disabled]):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {    
+    box-shadow: 0 0 0 0.2rem rgba(255, 149, 43, 0.5);
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,149,43,.5);
 }
 
 .btn-outline-primary:hover{
