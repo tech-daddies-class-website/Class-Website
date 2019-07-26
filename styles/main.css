@@ -220,6 +220,7 @@ main {
 
   .backButton{
       margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
   }
 
 /* .navbar.navbar-light.bg-light.footer{
@@ -256,6 +257,10 @@ button{
 .btn-outline-primary:hover{
     color: white!important;
     background-color: #000000!important;
+}
+
+.contactContainer {
+    justify-content: flex-end;
 }
 
 /* adjusts size of contact icons depending on size of card */
